@@ -9,6 +9,10 @@
             text-align: center;
         }  */
 
+
+
+
+        
 /* if you want the circle button medium this is the style & tg */
 .btn-circle.btn-md {
             width: 50px;
@@ -28,3 +32,7 @@
             font-size: 8px;
             text-align: center;
         } */
+
+.navbarhead {
+    height: 8%;
+}
