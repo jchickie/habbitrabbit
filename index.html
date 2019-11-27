@@ -7,34 +7,94 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="base.css" />
-
+    <script
+      src="https://kit.fontawesome.com/b5f35c96b8.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Habit App Prototype</title>
     <meta content="" />
   </head>
   <header>
-      <nav class="navbar navbar-light bg-light navbarhead">
-          <a class="navbar-brand" href="#">Navbar</a>
-        </nav>
+    <nav class="navbar navbar-light navbarhead">
+      <a class="navbar-brand" href="#">Habbit Rabbit</a>
+    </nav>
   </header>
   <body>
-    
-
+    <div class="container-fluid">
+      <div class="row justify-content-center my-5">
+        <div class=" col-11">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class=" col-11">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-5">
+        <div class=" col-11">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div>
-      <a class="btn btn-primary" href="CurrentHabitBuilding.html" role="button"
-        >Current Habit Building</a
-      ><br /><br />
-      <a class="btn btn-primary" href="CurrentHabitBreaking.html" role="button"
-        >Current Habit Breaking</a
-      ><br /><br />
-      <a class="btn btn-primary" href="#" role="button"
-        >Check Your Performance</a
-      ><br /><br />
-      <!-- <button>Current Habit Building</button>
-    <button>Current Habit Breaking</button>
-    <button>Check Your Performance</button> -->
-      <button id="menu-btn" type="button" class="btn btn-primary btn-circle btn-md">
-        <span class="glyphicon glyphicon-plus-sign"> </span> Plus Sign
-      </button>
+      <div class="" id="menu-options">
+        <div class="collapse menu-option" id="menu-option1">
+          <button class="btn btn-info menu-options" type="button">
+            Build a Habit
+          </button>
+        </div>
+        <div class="collapse menu-option" id="menu-option2">
+          <button id="" class="btn btn-info menu-options" type="button">
+            Break a Habit
+          </button>
+        </div>
+      </div>
+      <div id="menu-btn" class="dropdown">
+        <!-- <div class="circle-responsive"></div> -->
+
+        <button
+          type="button"
+          class="btn dark-blue-bg btn-primary circle-responsive"
+          data-toggle="collapse"
+          data-target=".menu-option"
+        >
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
     </div>
 
     <script

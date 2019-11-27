@@ -1,4 +1,3 @@
-
 /* if you want the circle button big this is the style & tg */
 /* .btn-circle.btn-xl {
             width: 70px;
@@ -9,19 +8,24 @@
             text-align: center;
         }  */
 
+#menu-btn {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  width: 20%;
+  height: 12.5%;
+}
 
-
-
-        
 /* if you want the circle button medium this is the style & tg */
 .btn-circle.btn-md {
-            width: 50px;
-            height: 50px;
-            padding: 7px 10px;
-            border-radius: 25px;
-            font-size: 10px;
-            text-align: center;
-        } 
+  /* position: relative; */
+  width: 80%;
+  height: 80%;
+  /* padding: 7px 10px; */
+  border-radius: 50%;
+  font-size: 3rem;
+  text-align: center;
+}
 
 /* this is if you want the bottom circle button to be small */
 /* .btn-circle.btn-sm {
@@ -34,5 +38,61 @@
         } */
 
 .navbarhead {
-    height: 8%;
+  height: 12.5%;
+  background: #ecfcff;
+  font-size: 100%;
 }
+
+.carrot {
+    color: #f88020;
+}
+
+.navbarhead > a {
+  font-size: 3rem;
+  font-family: 'Damion', cursive;
+  font-weight: 200;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.dark-blue-bg {
+  background: #5edfff;
+}
+
+#menu-options {
+  position: fixed;
+  right: 20%;
+  bottom: 18%;
+  /* width: 25%; */
+  /* height: 25%; */
+}
+
+#menu-option1 {
+    position: fixed;
+    right: 28%;
+    bottom: 11%;
+}
+
+.menu-options {
+    color: black;
+    font-size: xx-large;
+    font-weight: 700;
+    border-radius: 10%;
+    width: 15rem;
+    height: 4rem;
+    background: #b2fcff;
+}
+
+.circle-responsive {
+    background: #5edfff;
+    border-radius: 50%;
+    height: 0;
+    padding-bottom: 100%;
+    width: 100%;
+  }
+
+  #centerplus {
+      padding-top: 50%;
+  }
