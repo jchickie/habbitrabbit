@@ -7,7 +7,9 @@
             font-size: 12px;
             text-align: center;
         }  */
-
+body {
+  padding-top: 25%;
+}
 #menu-btn {
   position: fixed;
   right: 5%;
@@ -95,4 +97,9 @@
 
   #centerplus {
       padding-top: 50%;
+  }
+
+  .main-page-header {
+    height: 5.5rem;
+    font-size: 3rem;
   }
