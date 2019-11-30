@@ -111,3 +111,7 @@ body {
   .habit-option {
     font-size: 1.5rem;
   }
+
+  .habit-card-btn {
+    font-size: 1.25rem;
+  }
