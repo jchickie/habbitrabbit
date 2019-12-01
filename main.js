@@ -20,4 +20,14 @@ $(document).ready(function() {
         window.location.replace("../index.html");
     }
   });
+
+  $(".delete-habit-btn-multi").click(function() {
+    // $(this).remove($(this).parents(".row"));
+    console.log($(this));
+    if (confirm("Are you sure you want to delete this?")) {
+      $(this)
+        .closest(".habit-card")
+        .remove();
+    }
+  });
 });
