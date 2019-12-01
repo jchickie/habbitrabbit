@@ -1,6 +1,9 @@
 $(document).ready(function() {
   $(".minus-button").click(function() {
     // $(this).remove($(this).parents(".row"));
+    var ref = $(this).parent().attr('href');
+    console.log(ref);
+    $(this).parent().removeAttr('href');
     console.log($(this));
     $(this)
       .closest(".row")
@@ -14,6 +17,7 @@ $(document).ready(function() {
       $(this)
         .closest(".habit-card")
         .remove();
+        window.location.replace("../index.html");
     }
   });
 });
