@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../base.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Damion&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5f35c96b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Habit App Prototype</title>
+    <meta content="" />
+  </head>
+  <header>
+    <nav class="navbar navbar-light navbarhead fixed-top">
+      <a class="navbar-brand pb-2" href="#"
+        >Habbit Rabbit <i class="fas fa-carrot carrot"></i
+      ></a>
+    </nav>
+  </header>
+  <body>
+    <div class="mt-4 text-center">
+      <h1 class="display-4">You're Breaking This Habit:</h1>
+    </div>
+    <div class="container-fluid mt-2">
+      <div class="row justify-content-center my-5 habit-card">
+        <div class="col-11">
+          <div class="card w-100 mx-auto">
+            <h3 class="card-header bg-lightgrey">
+              Nail-biting
+            </h3>
+
+            <div class="card-body"></div>
+            <table class="table table-bordered">
+              <tr>
+                <th>Frequency</th>
+                <td class="">1x/day</td>
+              </tr>
+              <tr>
+                <th>Time</th>
+                <td class="">Ongoing</td>
+              </tr>
+              <tr>
+                <th>Current streak</th>
+                <td class="">3 days!</td>
+              </tr>
+              <tr>
+                <th>Start date</th>
+                <td class="">11/28/19</td>
+              </tr>
+              <tr>
+                <th>Expected completion date</th>
+                <td class="">05/10/20</td>
+              </tr>
+            </table>
+
+            <div class="card-body text-center container-fluid">
+              <div class="row">
+                <div class="col-6">
+                  <a href="edit-habit.html" class="btn btn-success float-right"
+                    >Edit</a
+                  >
+                </div>
+                <div class="col-6">
+                  <a href="#" class="btn btn-danger float-left delete-habit-btn"
+                    >Delete</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="" id="menu-options">
+        <div class="collapse menu-option" id="menu-option1">
+          <button class="btn btn-info menu-options" type="button">
+            Build a Habit
+          </button>
+        </div>
+        <div class="collapse menu-option" id="menu-option2">
+          <button id="" class="btn btn-info menu-options" type="button">
+            Break a Habit
+          </button>
+        </div>
+      </div>
+      <div id="menu-btn" class="dropdown">
+        <!-- <div class="circle-responsive"></div> -->
+
+        <button
+          type="button"
+          class="btn dark-blue-bg btn-primary circle-responsive"
+          data-toggle="collapse"
+          data-target=".menu-option"
+        >
+          <i id="centerplus" class="fas fa-plus centerplus fa-2x"></i>
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
