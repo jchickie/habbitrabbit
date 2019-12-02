@@ -65,7 +65,7 @@ body {
 
 #menu-options {
   position: fixed;
-  right: 20%;
+  right: 15%;
   bottom: 18%;
   /* width: 25%; */
   /* height: 25%; */
@@ -73,7 +73,7 @@ body {
 
 #menu-option1 {
     position: fixed;
-    right: 28%;
+    right: 20%;
     bottom: 11%;
 }
 
