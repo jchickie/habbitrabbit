@@ -14,7 +14,7 @@ body {
   position: fixed;
   right: 5%;
   bottom: 5%;
-  width: 20%;
+  width: 12.5%;
   height: 12.5%;
 }
 
@@ -92,11 +92,12 @@ body {
     border-radius: 50%;
     height: 0;
     padding-bottom: 100%;
-    width: 100%;
+    width: 105%;
   }
 
   #centerplus {
-      padding-top: 50%;
+      padding: 0px;
+      padding-top: 40%;
   }
 
   .main-page-header {
@@ -118,4 +119,8 @@ body {
 
   .habit-form {
     font-size: 1.75rem;;
+  }
+
+  .spacer {
+    height: 250px;
   }
