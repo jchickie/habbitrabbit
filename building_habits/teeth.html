@@ -19,12 +19,21 @@
     <meta content="" />
   </head>
   <header>
-    <nav class="navbar navbar-light navbarhead fixed-top">
-      <a class="navbar-brand pb-2" href="../index.html"
-        >Habbit Rabbit <i class="fas fa-carrot carrot"></i
-      ></a>
-      <a href="../index.html"><i class="fas fa-home"></i></a>
-    </nav>
+      <nav class="navbar navbar-light navbarhead fixed-top">
+          <a class="navbar-brand pb-2" href="../index.html"
+            >Habbit Rabbit <i class="fas fa-carrot carrot"></i
+          ></a>
+          <div class="dropdown" id="ham-menu">
+              <!-- <i class="fas fa-bars"></i> -->
+              <i class="btn btn-info fas fa-bars fa-2x center-ham" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </i>
+              <div class="dropdown-menu dropdown-menu-right" id="nav-drop" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item nav-drop-tem" href="../index.html">Home</a>
+                <a class="dropdown-item nav-drop-tem" href="#">Account</a>
+                <a class="dropdown-item nav-drop-tem" href="#">Link Device</a>
+              </div>
+            </div>
+          </nav>
   </header>
   <body>
     <div class="mt-4 text-center">
@@ -65,7 +74,9 @@
             <div class="card-body text-center container-fluid">
               <div class="row">
                 <div class="col-6">
-                  <a href="../edit-habit.html" class="btn btn-success float-right"
+                  <a
+                    href="../edit-habit.html"
+                    class="btn btn-success float-right"
                     >Edit</a
                   >
                 </div>
@@ -79,16 +90,41 @@
           </div>
         </div>
       </div>
+      <div class="row justify-content-center my-5 habit-card">
+        <div class="col-11">
+          <div class="card w-100 mx-auto">
+            <h3 class="card-header bg-lightgrey">
+              This habit's progress
+            </h3>
+            <div class="card-body text-center">
+              <h4 class="card-title">This month at a glance</h4>
+              <img class="w-100" src="../images/tinygraph.PNG" />
+              <p class="card-te xt">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Check Your Performance</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
       <div class="" id="menu-options">
         <div class="collapse menu-option" id="menu-option1">
-          <a href="../create-building-habit.html" class="btn btn-info menu-options">
+          <a
+            href="../create-building-habit.html"
+            class="btn btn-info menu-options"
+          >
             Build a Habit
           </a>
         </div>
         <div class="collapse menu-option" id="menu-option2">
-          <a href="../create-breaking-habit.html" id="" class="btn btn-info menu-options">
+          <a
+            href="../create-breaking-habit.html"
+            id=""
+            class="btn btn-info menu-options"
+          >
             Break a Habit
           </a>
         </div>

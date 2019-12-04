@@ -19,13 +19,22 @@
     <meta content="" />
   </head>
   <header>
-    <nav class="navbar navbar-light navbarhead fixed-top">
-      <a class="navbar-brand pb-2" href="index.html"
-        >Habbit Rabbit <i class="fas fa-carrot carrot"></i
-      ></a>
-      <a href="index.html"><i class="fas fa-home"></i></a>
-    </nav>
-  </header>
+      <nav class="navbar navbar-light navbarhead fixed-top">
+          <a class="navbar-brand pb-2" href="index.html"
+            >Habbit Rabbit <i class="fas fa-carrot carrot"></i
+          ></a>
+          <div class="dropdown" id="ham-menu">
+              <!-- <i class="fas fa-bars"></i> -->
+              <i class="btn btn-info fas fa-bars fa-2x center-ham" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </i>
+              <div class="dropdown-menu dropdown-menu-right" id="nav-drop" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item nav-drop-tem" href="index.html">Home</a>
+                <a class="dropdown-item nav-drop-tem" href="#">Account</a>
+                <a class="dropdown-item nav-drop-tem" href="#">Link Device</a>
+              </div>
+            </div>
+          </nav>
+      </header>
   <body>
     <div class="container-fluid mt-2">
       <div class="row justify-content-center my-5">
