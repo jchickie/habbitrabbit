@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="base.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Damion&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b5f35c96b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Habit App Prototype</title>
+    <meta content="" />
+  </head>
+  <header>
+    <nav class="navbar navbar-light navbarhead fixed-top">
+      <a class="navbar-brand pb-2" href="index.html"
+        >Habbit Rabbit <i class="fas fa-carrot carrot"></i
+      ></a>
+      <div class="dropdown" id="ham-menu">
+        <!-- <i class="fas fa-bars"></i> -->
+        <i
+          class="btn btn-info fas fa-bars fa-2x center-ham"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+        </i>
+        <div
+          class="dropdown-menu dropdown-menu-right"
+          id="nav-drop"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <a class="dropdown-item nav-drop-tem" href="index.html">Home</a>
+          <a class="dropdown-item nav-drop-tem" href="#">Account</a>
+          <a class="dropdown-item nav-drop-tem" href="#">Link Device</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+    <div class="container-fluid mt-2">
+      <div class="row justify-content-center my-5">
+        <div class="col-11">
+          <div class="card">
+            <h5 class="card-header main-page-header bg-lightgrey">
+              Your Habit Progress
+            </h5>
+            <div class="card-body text-center">
+              <h4 class="card-title">This month at a glance</h4>
+              <img class="w-100" src="images/mediumgraph.PNG" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-11">
+          <div class="card">
+            <h5 class="card-header main-page-header bg-lightgrey">
+              Building Habits
+            </h5>
+            <div class="card-body text-center">
+              <h4 class="card-title">November, 2019</h4>
+              <img class="w-100" src="images/performance1.PNG" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center my-5">
+        <div class="col-11">
+          <div class="card">
+            <h5 class="card-header main-page-header bg-lightgrey">
+              Breaking Habits
+            </h5>
+            <div class="card-body text-center">
+              <h4 class="card-title">November, 2019</h4>
+              <img class="w-100" src="images/performance1.PNG" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid spacer"></div>
+
+    <div>
+      <div class="" id="menu-options">
+        <div class="collapse menu-option" id="menu-option1">
+          <a
+            href="create-building-habit.html"
+            class="btn btn-info menu-options"
+          >
+            Build a Habit
+          </a>
+        </div>
+        <div class="collapse menu-option" id="menu-option2">
+          <a
+            href="create-breaking-habit.html"
+            id=""
+            class="btn btn-info menu-options"
+          >
+            Break a Habit
+          </a>
+        </div>
+      </div>
+      <div id="menu-btn" class="dropdown">
+        <!-- <div class="circle-responsive"></div> -->
+
+        <button
+          type="button"
+          class="btn dark-blue-bg btn-primary circle-responsive"
+          data-toggle="collapse"
+          data-target=".menu-option"
+        >
+          <i id="centerplus" class="fas fa-plus centerplus fa-2x"></i>
+        </button>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
