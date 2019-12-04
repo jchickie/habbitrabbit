@@ -1,9 +1,13 @@
 $(document).ready(function() {
   $(".minus-button").click(function() {
     // $(this).remove($(this).parents(".row"));
-    var ref = $(this).parent().attr('href');
+    var ref = $(this)
+      .parent()
+      .attr("href");
     console.log(ref);
-    $(this).parent().removeAttr('href');
+    $(this)
+      .parent()
+      .removeAttr("href");
     console.log($(this));
     $(this)
       .closest(".row")
@@ -17,7 +21,7 @@ $(document).ready(function() {
       $(this)
         .closest(".habit-card")
         .remove();
-        window.location.replace("../index.html");
+      window.location.replace("../index.html");
     }
   });
 
@@ -30,4 +34,24 @@ $(document).ready(function() {
         .remove();
     }
   });
+
+  $(".checker").change(function() {
+    // $(this).remove($(this).parents(".row"));
+    // var ref = $(this).parent().attr('href');
+    // $(this).parent().removeAttr('href');
+    console.log(this);
+    // if(this.checked) {
+    //   $(this).parent().parent().toggleClass('btn-outline-info, bg-success');
+    //   // $(this).parent().parent().toggleClass('btn-outline-info, bg-success');
+    // } else {
+    //   $(this).parent().parent().toggleClass('bg-success, btn-outline-info')
+    // }
+    $(this).parent().parent().toggleClass('btn-outline-info, bg-success');
+    $(this).parent().parent().toggleClass('btn-outline-info, bg-success');
+
+  });
+  // console.log($(this));
+  // $(this)
+  //   .closest(".row")
+  //   .remove();
 });
